@@ -1,0 +1,102 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.center{
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+.container{
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.titlepage{
+    background:url("/imgs/Explosion.jpg");
+    background-size: cover;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.split{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.left{
+    left: 0;
+    border-right: 5px black solid;
+    float: left;
+    border-top: 10px black solid;
+}
+.right{
+    right: 0;
+    float: right;
+    border-left: 5px black solid;
+    border-top: 10px black solid;
+}
+.centered{
+    text-align: center;
+}
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+}
+.tablink:hover {
+    background-color: #777;
+}
+.tabcontent{
+    color: black;
+    display: none;
+    padding: 50px;
+    text-align: center;
+    height: 100%;
+}    
+#city1{
+    background-image: url(/imgs/hiro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#city2{
+    background-image: url(/imgs/naga2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.middle1{
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.middle2{
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    text-align: center;
+    color: black;
+}
